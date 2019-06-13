@@ -1,0 +1,11 @@
+G:\Repositories\Challenge 377 - Reddit\bin\Debug\netcoreapp2.1\Challenge 377 - Reddit.deps.json
+G:\Repositories\Challenge 377 - Reddit\bin\Debug\netcoreapp2.1\Challenge 377 - Reddit.runtimeconfig.json
+G:\Repositories\Challenge 377 - Reddit\bin\Debug\netcoreapp2.1\Challenge 377 - Reddit.runtimeconfig.dev.json
+G:\Repositories\Challenge 377 - Reddit\bin\Debug\netcoreapp2.1\Challenge 377 - Reddit.dll
+G:\Repositories\Challenge 377 - Reddit\bin\Debug\netcoreapp2.1\Challenge 377 - Reddit.pdb
+G:\Repositories\Challenge 377 - Reddit\obj\Debug\netcoreapp2.1\Challenge 377 - Reddit.csprojAssemblyReference.cache
+G:\Repositories\Challenge 377 - Reddit\obj\Debug\netcoreapp2.1\Challenge 377 - Reddit.csproj.CoreCompileInputs.cache
+G:\Repositories\Challenge 377 - Reddit\obj\Debug\netcoreapp2.1\Challenge 377 - Reddit.AssemblyInfoInputs.cache
+G:\Repositories\Challenge 377 - Reddit\obj\Debug\netcoreapp2.1\Challenge 377 - Reddit.AssemblyInfo.cs
+G:\Repositories\Challenge 377 - Reddit\obj\Debug\netcoreapp2.1\Challenge 377 - Reddit.dll
+G:\Repositories\Challenge 377 - Reddit\obj\Debug\netcoreapp2.1\Challenge 377 - Reddit.pdb
