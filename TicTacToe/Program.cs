@@ -1,20 +1,15 @@
 ﻿using System;
-using System.Threading;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TicTacToe
 {
     class Program
     {
-        static bool gameongoing = true;
-        static bool GameOver = false;
+        static bool gameOngoing = true;
+        static bool gameOver = false;
         static int winningPlayer = 0;
         static string playerSign;
-        static int[] usedFields = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-        static string[,] matrix =
+        static readonly int[] usedFields = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        static readonly string[,] matrix =
         { 
             {"1", "2", "3"}, 
             {"4", "5", "6"},
@@ -23,20 +18,20 @@ namespace TicTacToe
 
         static void Main(string[] args)
         {
-            while (gameongoing == true)
+            while (gameOngoing == true)
             {
                 CreateTicTacToe();
-                while (GameOver == false)
+                while (gameOver == false)
                 {
                     PlayerMove(1);
                     CheckWin(1);
-                    if (GameOver == true)
+                    if (gameOver == true)
                     {
                         break;
                     }
                     PlayerMove(2);
                     CheckWin(2);
-                    if (GameOver == true)
+                    if (gameOver == true)
                     {
                         break;
                     }
@@ -49,6 +44,7 @@ namespace TicTacToe
 
         public static void CreateTicTacToe()
         {
+            Console.Clear();
             Console.WriteLine("     |     |     ");
             Console.WriteLine("  {0}  |  {1}  |  {2}  ",matrix[0,0], matrix[0,1], matrix[0,2]);
             Console.WriteLine("_____|_____|_____");
@@ -72,10 +68,9 @@ namespace TicTacToe
             while (noRightInput)
             {
                 bool numberUsed = false;
-                int inputNumber;
                 Console.Write("Player {0}: Choose your field for {1}:", player, playerSign);
                 string input = Console.ReadLine();
-                bool success = int.TryParse(input, out inputNumber);
+                bool success = int.TryParse(input, out int inputNumber);
                 if (success)
                 {
                     if (inputNumber > 0 & inputNumber < 10)
@@ -147,7 +142,6 @@ namespace TicTacToe
 
         public static void CheckWin(int player)
         {
-            Console.Clear();
             CreateTicTacToe();
             if ((matrix[0,0] == playerSign & matrix[0,1] == playerSign & matrix[0,2] == playerSign) ||
                 (matrix[1,0] == playerSign & matrix[1,1] == playerSign & matrix[1,2] == playerSign) ||
@@ -158,7 +152,7 @@ namespace TicTacToe
                 (matrix[0,0] == playerSign & matrix[1,1] == playerSign & matrix[2,2] == playerSign) ||
                 (matrix[0,2] == playerSign & matrix[1,1] == playerSign & matrix[2,0] == playerSign))
             {
-                GameOver = true;
+                gameOver = true;
                 winningPlayer = player;
             }
             if (
@@ -166,7 +160,7 @@ namespace TicTacToe
             matrix[1, 0] != "4" & matrix[1, 1] != "5" & matrix[1, 2] != "6" &
             matrix[2, 0] != "7" & matrix[2, 1] != "8" & matrix[2, 2] != "9")
             {
-                GameOver = true;
+                gameOver = true;
             }
         }
         public static void WinnerAnnouncement()
@@ -201,14 +195,13 @@ namespace TicTacToe
                 matrix[2, 0] = "7";
                 matrix[2, 1] = "8";
                 matrix[2, 2] = "9";
-                Console.Clear();
                 winningPlayer = 0;
-                GameOver = false;
+                gameOver = false;
             }
             else
             {
                 Console.WriteLine("Shutting Down....");
-                gameongoing = false;
+                gameOngoing = false;
             }
         }
     }
