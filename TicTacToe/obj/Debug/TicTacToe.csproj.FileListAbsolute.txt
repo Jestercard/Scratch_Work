@@ -5,3 +5,10 @@ G:\Repositories\_NOT_ON_GIT\TicTacToe\obj\Debug\TicTacToe.csprojAssemblyReferenc
 G:\Repositories\_NOT_ON_GIT\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
 G:\Repositories\_NOT_ON_GIT\TicTacToe\obj\Debug\TicTacToe.exe
 G:\Repositories\_NOT_ON_GIT\TicTacToe\obj\Debug\TicTacToe.pdb
+G:\Repositories\Scratch_Work\TicTacToe\bin\Debug\TicTacToe.exe.config
+G:\Repositories\Scratch_Work\TicTacToe\bin\Debug\TicTacToe.exe
+G:\Repositories\Scratch_Work\TicTacToe\bin\Debug\TicTacToe.pdb
+G:\Repositories\Scratch_Work\TicTacToe\obj\Debug\TicTacToe.csprojAssemblyReference.cache
+G:\Repositories\Scratch_Work\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+G:\Repositories\Scratch_Work\TicTacToe\obj\Debug\TicTacToe.exe
+G:\Repositories\Scratch_Work\TicTacToe\obj\Debug\TicTacToe.pdb
