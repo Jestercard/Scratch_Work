@@ -1,0 +1,7 @@
+G:\Repositories\Scratch_Work\TicTacToe\bin\Release\TicTacToe.exe.config
+G:\Repositories\Scratch_Work\TicTacToe\bin\Release\TicTacToe.exe
+G:\Repositories\Scratch_Work\TicTacToe\bin\Release\TicTacToe.pdb
+G:\Repositories\Scratch_Work\TicTacToe\obj\Release\TicTacToe.csprojAssemblyReference.cache
+G:\Repositories\Scratch_Work\TicTacToe\obj\Release\TicTacToe.csproj.CoreCompileInputs.cache
+G:\Repositories\Scratch_Work\TicTacToe\obj\Release\TicTacToe.exe
+G:\Repositories\Scratch_Work\TicTacToe\obj\Release\TicTacToe.pdb
