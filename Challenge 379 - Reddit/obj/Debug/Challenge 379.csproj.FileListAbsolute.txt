@@ -1,0 +1,7 @@
+G:\Repositories\_NOT_ON_GIT\Challenge 379\obj\Debug\Challenge 379.csprojAssemblyReference.cache
+G:\Repositories\_NOT_ON_GIT\Challenge 379\obj\Debug\Challenge 379.csproj.CoreCompileInputs.cache
+G:\Repositories\_NOT_ON_GIT\Challenge 379\bin\Debug\Challenge 379.exe.config
+G:\Repositories\_NOT_ON_GIT\Challenge 379\bin\Debug\Challenge 379.exe
+G:\Repositories\_NOT_ON_GIT\Challenge 379\bin\Debug\Challenge 379.pdb
+G:\Repositories\_NOT_ON_GIT\Challenge 379\obj\Debug\Challenge 379.exe
+G:\Repositories\_NOT_ON_GIT\Challenge 379\obj\Debug\Challenge 379.pdb
