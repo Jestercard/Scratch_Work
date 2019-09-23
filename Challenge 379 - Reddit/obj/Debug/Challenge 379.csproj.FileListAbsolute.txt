@@ -5,3 +5,10 @@ G:\Repositories\_NOT_ON_GIT\Challenge 379\bin\Debug\Challenge 379.exe
 G:\Repositories\_NOT_ON_GIT\Challenge 379\bin\Debug\Challenge 379.pdb
 G:\Repositories\_NOT_ON_GIT\Challenge 379\obj\Debug\Challenge 379.exe
 G:\Repositories\_NOT_ON_GIT\Challenge 379\obj\Debug\Challenge 379.pdb
+G:\Repositories\Scratch_Work\Challenge 379 - Reddit\bin\Debug\Challenge 379.exe.config
+G:\Repositories\Scratch_Work\Challenge 379 - Reddit\bin\Debug\Challenge 379.exe
+G:\Repositories\Scratch_Work\Challenge 379 - Reddit\bin\Debug\Challenge 379.pdb
+G:\Repositories\Scratch_Work\Challenge 379 - Reddit\obj\Debug\Challenge 379.csprojAssemblyReference.cache
+G:\Repositories\Scratch_Work\Challenge 379 - Reddit\obj\Debug\Challenge 379.csproj.CoreCompileInputs.cache
+G:\Repositories\Scratch_Work\Challenge 379 - Reddit\obj\Debug\Challenge 379.exe
+G:\Repositories\Scratch_Work\Challenge 379 - Reddit\obj\Debug\Challenge 379.pdb

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Challenge_379
 {
-    class Tax
+    public class Tax
     {
         private double BracketOneCap = 10000;
         private double BracketTwoCap = 30000;
