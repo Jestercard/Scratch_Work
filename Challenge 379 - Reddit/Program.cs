@@ -29,7 +29,7 @@ namespace Challenge_379
                     }
                     else
                     {
-                        Console.WriteLine("Incorrect Value entered. Press enter to try again.");
+                        throw new Exception("Incorrect Value entered.");
                     }
                 }
                 else
