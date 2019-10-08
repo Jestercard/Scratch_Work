@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Repositories\\Challenge 377 - Reddit\\Challenge 377 - Reddit.csproj": {}
+    "G:\\Repositories\\Scratch_Work\\Challenge 377 - Reddit\\Challenge 377 - Reddit.csproj": {}
   },
   "projects": {
-    "G:\\Repositories\\Challenge 377 - Reddit\\Challenge 377 - Reddit.csproj": {
+    "G:\\Repositories\\Scratch_Work\\Challenge 377 - Reddit\\Challenge 377 - Reddit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Repositories\\Challenge 377 - Reddit\\Challenge 377 - Reddit.csproj",
+        "projectUniqueName": "G:\\Repositories\\Scratch_Work\\Challenge 377 - Reddit\\Challenge 377 - Reddit.csproj",
         "projectName": "Challenge 377 - Reddit",
-        "projectPath": "G:\\Repositories\\Challenge 377 - Reddit\\Challenge 377 - Reddit.csproj",
+        "projectPath": "G:\\Repositories\\Scratch_Work\\Challenge 377 - Reddit\\Challenge 377 - Reddit.csproj",
         "packagesPath": "C:\\Users\\Jestercard\\.nuget\\packages\\",
-        "outputPath": "G:\\Repositories\\Challenge 377 - Reddit\\obj\\",
+        "outputPath": "G:\\Repositories\\Scratch_Work\\Challenge 377 - Reddit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
