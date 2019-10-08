@@ -8,14 +8,15 @@ namespace Challenge_379
 {
     public class Tax
     {
-        private double BracketOneCap = 10000;
-        private double BracketTwoCap = 30000;
-        private double BracketThreeCap = 100000;
+        //you can make these public and a constant to use them in this class and the test class
+        public const double BracketOneCap = 10000;
+        public const double BracketTwoCap = 30000;
+        public const double BracketThreeCap = 100000;
 
-        private double BracketOneRate = 0.0;
-        private double BracketTwoRate = 0.1;
-        private double BracketThreeRate = 0.25;
-        private double BracketFourRate = 0.4;
+        public const double BracketOneRate = 0.0;
+        public const double BracketTwoRate = 0.1;
+        public const double BracketThreeRate = 0.25;
+        public const double BracketFourRate = 0.4;
 
         public double taxes;
 
@@ -36,7 +37,8 @@ namespace Challenge_379
             Console.WriteLine("");
         }
 
-        public void TaxOwed(double income)
+        // better to return a double than edit within this method
+        public double TaxOwed(double income)
         {
             if (income >= BracketOneCap)
             {
@@ -45,24 +47,25 @@ namespace Challenge_379
                     if (income >= BracketThreeCap)
                     {
                         double taxableIncome = income - BracketThreeCap;
-                        taxes = (taxableIncome * BracketFourRate) + ((BracketThreeCap - BracketTwoCap) * BracketThreeRate) + ((BracketTwoCap - BracketOneCap) * BracketTwoRate) + (BracketOneCap * BracketOneRate);
+                        //removing taxes usage since it now can be returned
+                        return (taxableIncome * BracketFourRate) + ((BracketThreeCap - BracketTwoCap) * BracketThreeRate) + ((BracketTwoCap - BracketOneCap) * BracketTwoRate) + (BracketOneCap * BracketOneRate);
                     }
                     else
                     {
                         double taxableIncome = income - BracketTwoCap;
-                        taxes = (taxableIncome * BracketThreeRate) + ((BracketTwoCap - BracketOneCap) * BracketTwoRate) + (BracketOneCap * BracketOneRate);
+                        return (taxableIncome * BracketThreeRate) + ((BracketTwoCap - BracketOneCap) * BracketTwoRate) + (BracketOneCap * BracketOneRate);
 
                     }
                 }
                 else
                 {
                     double taxableIncome = income - BracketOneCap;
-                    taxes = (taxableIncome * BracketTwoRate) + (BracketOneCap * BracketOneRate);
+                    return (taxableIncome * BracketTwoRate) + (BracketOneCap * BracketOneRate);
                 }
             }
             else
             {
-                taxes = (income * BracketOneRate);
+               return (income * BracketOneRate);
             }
         }
     }
